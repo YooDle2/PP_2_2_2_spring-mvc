@@ -14,7 +14,7 @@
         <th>Model</th>
         <th>Age</th>
     </tr>
-    <tr th:each="car: ${car}">
+    <tr th:each="car: ${cars}">
         <td th:utext="${car.getBrand()}"></td>
         <td th:utext="${car.getModel()}"></td>
         <td th:utext="${car.getAge()}"></td>
